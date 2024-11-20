@@ -2,5 +2,11 @@
 <div id="lighting">
 	<p>Oświetlenie</p>
 	<br/><br/><button class="btn btn-success">Zmień treść</button>
+	<form method="post" action="ajax.php">
+		<input name="jsonFile" type="hidden">
+		<input name="id" type="hidden">
+		<input name="name" type="text">
+		<input name="status" type="text" value="on|off">
+	</form> 
 </div>
 <script src="assets/js/lighting.js"></script>
